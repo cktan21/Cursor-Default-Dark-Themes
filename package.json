@@ -1,1 +1,42 @@
-{"name":"cursor-themes","displayName":"cursor-themes","description":"Default Cursor themes","version":"0.0.2","repository":{"type":"git","url":"https://github.com/ryokun6/cursor-themes.git"},"author":{"name":"Ryo Lu","email":"ryo@anysphere.co"},"engines":{"vscode":"*"},"categories":["Themes"],"contributes":{"themes":[{"label":"Cursor Dark Midnight","uiTheme":"vs-dark","path":"./themes/Cursor Dark Midnight-color-theme.json"},{"label":"Cursor Dark High Contrast","uiTheme":"hc-black","path":"./themes/Cursor Dark High Contrast-color-theme.json"},{"label":"Cursor Dark","uiTheme":"vs-dark","path":"./themes/Cursor Dark Anysphere-color-theme.json"}]}}
+{
+    "name": "cursor--themes",
+    "displayName": "Cursor Themes",
+    "publisher": "cktan21",
+    "description": "Default Cursor themes",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cktan21/Cursor-Default-Dark-Themes.git"
+    },
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "assets/cursor.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cursor Dark Midnight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Cursor Dark Midnight-color-theme.json"
+            },
+            {
+                "label": "Cursor Dark High Contrast",
+                "uiTheme": "hc-black",
+                "path": "./themes/Cursor Dark High Contrast-color-theme.json"
+            },
+            {
+                "label": "Cursor Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Cursor Dark Anysphere-color-theme.json"
+            },
+            {
+                "label": "Cursor Light",
+                "uiTheme": "hc-light",
+                "path": "./themes/Cursor Light-color-theme.json"
+            }
+        ]
+    }
+}
